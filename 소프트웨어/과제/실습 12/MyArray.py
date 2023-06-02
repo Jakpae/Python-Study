@@ -6,7 +6,6 @@
 
 import numpy as np
 
-
 def printArray(arr):
     arr_shape = np.shape(arr) # 배열의 shape 확인
 

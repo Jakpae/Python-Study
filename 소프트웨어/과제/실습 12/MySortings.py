@@ -4,6 +4,7 @@
 # Dept : Info & Comm. Eng
 # Date : May 31, 2023
 
+# Quick_Sort의 Just in Time 을 구현하기 위한 모듈 Numba Import
 from numba import jit, njit, prange
 
 def _partition(arr, left, right, pi):
