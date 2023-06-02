@@ -1,0 +1,9 @@
+black triangle -250 250 50
+green square 0 250 50
+blue pentagon 250 250 50
+navy hexagon -250 0 50
+brown heptagon 0 0 50
+darkred octagon 250 0 50
+orange nonagon -250 -250 50
+magenta decagon 0 -250 50
+red circle 250 -250 50
