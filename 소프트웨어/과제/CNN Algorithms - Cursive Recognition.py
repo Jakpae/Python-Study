@@ -6,8 +6,7 @@ from keras.layers import Dense
 from keras.layers import Dropout
 from keras.layers import Flatten
 from keras.layers.convolutional import Conv2D
-from keras.layers.convolutional import MaxPooling2D #from keras.utils import to_categorical
-kr_utils = tf.keras.utils
+from keras.layers.convolutional import MaxPooling2D
 kr_utils = tf.keras.utils
 
 from keras import backend as k
@@ -17,7 +16,7 @@ import matplotlib.pyplot as plt
 
 #load dataset directly from keras library
 print("Loading MNIST data . . . .")
-mnist_npz_path = 'G:\내 드라이브\공부\소프트웨어\과제\MyPyPackage\MNIST\mnist.npz'
+mnist_npz_path = '/Users/leeseungjun/Library/CloudStorage/GoogleDrive-jfldjd@yu.ac.kr/내 드라이브/공부/소프트웨어/과제/MyPyPackage/MNIST/mnist.npz'
 (X_train, y_train), (X_test, y_test) = mnist.load_data(path = mnist_npz_path)
 
 digit_names = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]

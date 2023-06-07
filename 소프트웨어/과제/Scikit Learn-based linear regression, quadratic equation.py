@@ -34,7 +34,7 @@ plt.xlabel('x') # x축 레이블 설정
 plt.ylabel('y') # y축 레이블 설정
 plt.legend(loc="best") # 범례 설정
 plt.grid(True) # 그래프 격자 표시
-plt.show() # 그래프 표시
+plt.show()
 
 
 
